@@ -1,0 +1,122 @@
+[
+  {
+    "title": "Overflowing garbage on Road 21",
+    "category": "Garbage",
+    "location": "Mohakhali, Dhaka",
+    "description": "Garbage has not been collected for 5 days, causing bad odor and inconvenience.",
+    "image": "https://images.unsplash.com/photo-1605731414532-6b7a1c2d3d5e",
+    "amount": 200,
+    "email": "user1@mail.com",
+    "date": "2025-10-26"
+  },
+  {
+    "title": "Broken water pipeline in front of school",
+    "category": "Water Issues",
+    "location": "Dhanmondi, Dhaka",
+    "description": "A water pipe burst has flooded the road in front of a local school.",
+    "image": "https://images.unsplash.com/photo-1618477461857-2b1b1bda0b25",
+    "amount": 500,
+    "email": "user2@mail.com",
+    "date": "2025-10-27"
+  },
+  {
+    "title": "Blocked drainage near market area",
+    "category": "Waste Management",
+    "location": "Mirpur 10, Dhaka",
+    "description": "The drain near the bazar is clogged with waste and emits foul smell.",
+    "image": "https://images.unsplash.com/photo-1581574203435-3f9f3c0a50c7",
+    "amount": 350,
+    "email": "user3@mail.com",
+    "date": "2025-10-28"
+  },
+  {
+    "title": "Tree plantation required in park",
+    "category": "Tree Plantation",
+    "location": "Uttara Sector 4, Dhaka",
+    "description": "The park area has lost most of its trees and needs new plantation.",
+    "image": "https://images.unsplash.com/photo-1506765515384-028b60a970df",
+    "amount": 800,
+    "email": "user4@mail.com",
+    "date": "2025-10-29"
+  },
+  {
+    "title": "Plastic waste around lake area",
+    "category": "Waste Management",
+    "location": "Gulshan Lake, Dhaka",
+    "description": "Plastic bottles and wrappers are scattered around the lakeside.",
+    "image": "https://images.unsplash.com/photo-1581579186986-9c0cf2a3b8b2",
+    "amount": 250,
+    "email": "user5@mail.com",
+    "date": "2025-10-30"
+  },
+  {
+    "title": "Streetlight not working for a week",
+    "category": "Infrastructure",
+    "location": "Banani Road 11, Dhaka",
+    "description": "Multiple streetlights are broken, causing safety concerns at night.",
+    "image": "https://images.unsplash.com/photo-1509822929063-6b6cfc9b42f2",
+    "amount": 400,
+    "email": "user6@mail.com",
+    "date": "2025-10-31"
+  },
+  {
+    "title": "Sewage water on roadside",
+    "category": "Water Issues",
+    "location": "Farmgate, Dhaka",
+    "description": "Sewage water is leaking and creating health hazards in the area.",
+    "image": "https://images.unsplash.com/photo-1581574203459-3a0b2e0a3d5f",
+    "amount": 600,
+    "email": "user7@mail.com",
+    "date": "2025-11-01"
+  },
+  {
+    "title": "Illegal dumping in open field",
+    "category": "Garbage",
+    "location": "Khilgaon, Dhaka",
+    "description": "People are dumping garbage openly near the residential area.",
+    "image": "https://images.unsplash.com/photo-1528323273322-d81458248d40",
+    "amount": 300,
+    "email": "user8@mail.com",
+    "date": "2025-11-02"
+  },
+  {
+    "title": "Need trees beside playground",
+    "category": "Tree Plantation",
+    "location": "Shyamoli, Dhaka",
+    "description": "The playground area lacks shade; tree plantation would help reduce heat.",
+    "image": "https://images.unsplash.com/photo-1523978591478-c753949ff840",
+    "amount": 900,
+    "email": "user9@mail.com",
+    "date": "2025-11-03"
+  },
+  {
+    "title": "Overflowing dustbins near hospital",
+    "category": "Garbage",
+    "location": "Kalyanpur, Dhaka",
+    "description": "Dustbins are not being cleared regularly, posing a health risk.",
+    "image": "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1",
+    "amount": 220,
+    "email": "user10@mail.com",
+    "date": "2025-11-04"
+  },
+  {
+    "title": "Water logging after rain",
+    "category": "Water Issues",
+    "location": "Rampura, Dhaka",
+    "description": "Even light rain causes waterlogging due to poor drainage.",
+    "image": "https://images.unsplash.com/photo-1561489427-3a8c63a66a96",
+    "amount": 550,
+    "email": "user11@mail.com",
+    "date": "2025-11-05"
+  },
+  {
+    "title": "Overflowing drain causing mosquito issues",
+    "category": "Waste Management",
+    "location": "Tejgaon, Dhaka",
+    "description": "Drain overflowing for days, causing bad smell and mosquito infestation.",
+    "image": "https://images.unsplash.com/photo-1605731414532-6b7a1c2d3d5e",
+    "amount": 450,
+    "email": "user12@mail.com",
+    "date": "2025-11-06"
+  }
+]
