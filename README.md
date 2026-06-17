@@ -1,16 +1,63 @@
-# React + Vite
+# EcoFine Server
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+The backend API for the EcoFine platform. It handles data persistence, authentication verification, and business logic for managing environmental issue reports, blog posts, and user profiles. Built with a scalable Node.js and Express architecture connected to MongoDB.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+## Technologies Used
+- **Runtime:** Node.js
+- **Framework:** Express.js
+- **Database:** MongoDB (via native driver)
+- **Authentication:** Firebase Admin SDK
+- **Security:** CORS, Environment Variables
+- **Architecture:** RESTful API
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Core Features
+1.  **Issue Management:** CRUD operations for environmental reports.
+2.  **Secure Endpoints:** Interactions verified via Firebase ID Tokens.
+3.  **Database Integration:** Efficient queries and aggregation using MongoDB.
+4.  **Scalable Structure:** Modular route handling and error management.
 
-## Expanding the ESLint configuration
+## Dependencies
+- `express` - Web framework.
+- `mongodb` - Database driver.
+- `firebase-admin` - Server-side authentication verification.
+- `cors` - Cross-Origin Resource Sharing.
+- `dotenv` - Environment variable management.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## How to Run Locally
+
+### Prerequisites
+- Node.js installed.
+- MongoDB connection string.
+- Firebase Service Account credentials.
+
+### Steps
+1.  **Navigate to the server directory:**
+    ```bash
+    cd server
+    ```
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+3.  **Configure Environment Variables:**
+    - Create a `.env` file in the root of the `server` folder.
+    - Add the following variables:
+      ```env
+      PORT=5000
+      DB_USER=<your-db-user>
+      DB_PASS=<your-db-password>
+      # Add any other required keys
+      ```
+4.  **Start the server:**
+    ```bash
+    npm start
+    ```
+    - The server should run on `http://localhost:5000`.
+
+## Resources
+- [Express Documentation](https://expressjs.com/)
+- [MongoDB Node Driver Docs](https://www.mongodb.com/docs/drivers/node/current/)
+- [Firebase Admin SDK](https://firebase.google.com/docs/admin/setup)
